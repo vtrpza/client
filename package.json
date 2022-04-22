@@ -28,6 +28,7 @@
     "init": "^0.1.2",
     "next": "10.0.7",
     "next-pwa": "^5.0.5",
+    "polished": "^4.2.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "styled-components": "^5.2.1",
