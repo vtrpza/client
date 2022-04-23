@@ -7,6 +7,7 @@ export default {
   args: {
     title: 'Heading 1',
     subtitle: 'Heading 2',
+    backgroundImage: '/img/BG.svg',
     buttonLabel: 'Buy now!',
     buttonLink: 'RDR2'
   }
