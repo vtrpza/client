@@ -7,10 +7,24 @@ export default {
   args: {
     title: 'Heading 1',
     subtitle: 'Heading 2',
-    backgroundImage: '/img/BG.svg',
+    backgroundImage: '/img/BG.jpg',
     buttonLabel: 'Buy now!',
     buttonLink: 'RDR2'
   }
 } as Meta
 
-export const Default: Story<HighlightProps> = (args) => <Highlight {...args} />
+export const Default: Story<HighlightProps> = (args) => (
+  <div style={{ maxWidth: '104rem' }}>
+    <Highlight {...args} />
+  </div>
+)
+
+export const WithFloatImage: Story<HighlightProps> = (args) => (
+  <div style={{ maxWidth: '104rem' }}>
+    <Highlight {...args} />
+  </div>
+)
+
+WithFloatImage.args = {
+  floatImage: '/img/Personagem.png'
+}
